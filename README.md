@@ -1,6 +1,6 @@
-#  Equilibrio — AI Agent de Coaching & Bien-être Étudiant
+#  EduWell — AI Agent de Coaching & Bien-être Étudiant
 
-Equilibrio est une application **AI Agent intelligente multi-modules** conçue pour accompagner les étudiants dans :
+EduWell est une application **AI Agent intelligente multi-modules** conçue pour accompagner les étudiants dans :
 
 -  Gestion du stress en temps réel
 -  Coaching personnalisé IA
@@ -14,7 +14,7 @@ Le projet combine **LangChain + Anthropic Claude + Streamlit + classroom API** p
 
 #  Démo du projet
 
-> Equilibrio agit comme un **AI Copilot étudiant** disponible 24/7 pour :
+> EduWell agit comme un **AI Copilot étudiant** disponible 24/7 pour :
 - analyser le stress
 - proposer des solutions immédiates
 - organiser les études
