@@ -8,7 +8,7 @@ from pages.chat import show_chat
 from dotenv import load_dotenv
 load_dotenv()
 st.set_page_config(
-    page_title="MindFlow — Student Wellness Coach",
+    page_title="Equilibirio — Student Wellness Coach",
     page_icon="🧠",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -62,7 +62,7 @@ with st.sidebar:
     else:
         page = st.radio(
             "Navigation",
-            ["Dashboard", "Chat & Analysis", "Ma Routine", "Profil"],
+            ["Dashboard", "Chat & Analysis", "Ma Routine",  " Classroom", "Profil"],
             index=0
         )
         st.divider()
@@ -81,6 +81,9 @@ elif page == "Chat & Analysis":
 elif page == "Ma Routine":
     from pages.routine import show_routine
     show_routine()
+elif page == "Classroom":
+    from pages.classroom import show_classroom
+    show_classroom()
 elif page == "Profil":
     from pages.profile import show_profile
     show_profile()

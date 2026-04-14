@@ -12,6 +12,9 @@ def init_session():
         "api_key":os.getenv("ANTHROPIC_API_KEY", "") ,
         "stress_agent": None,
         "coach_agent": None,
+         "classroom_creds": None,
+        "selected_course_id": None,
+        "all_classroom_work": None,
     }
     for key, value in defaults.items():
         if key not in st.session_state:
