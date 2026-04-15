@@ -89,7 +89,26 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
+add ANTROPIC_API to .env file add client_secret.json file to the project folder
 
+### Steps to get client_secret.json
+Go to the Google Cloud Console.
+
+Select your project (or create a new one).
+
+Enable the Google Classroom API.
+[link](https://console.cloud.google.com)
+In the left menu, go to APIs & Services → Credentials.
+
+Click Create Credentials → OAuth client ID.
+
+Application type: Desktop app (since you’re running locally).
+
+Download the JSON file. It will look like client_secret_xxx.json.
+
+Rename it to client_secret.json (or update your script to match the filename).
+
+Place it in the same directory as your Streamlit script 
 
 
 ## Fonctionnalités
