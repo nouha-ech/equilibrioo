@@ -8,7 +8,7 @@ from pages.chat import show_chat
 from dotenv import load_dotenv
 load_dotenv()
 st.set_page_config(
-    page_title="Equilibirio — Student Wellness Coach",
+    page_title="Eduwell — Student Wellness Coach",
     page_icon="🧠",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -53,7 +53,7 @@ init_session()
 
 # ── Sidebar navigation ─────────────────────────────────────────────────────────
 with st.sidebar:
-    st.markdown("## 🧠 MindFlow")
+    st.markdown("## 🧠 Eduwell")
     st.markdown("*Student Wellness AI Coach*")
     st.divider()
 
