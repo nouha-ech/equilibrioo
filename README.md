@@ -75,13 +75,17 @@ student_wellness_coach/
    - État émotionnel
    - Techniques de gestion adaptées au profil
    - Message empathique personnalisé
-
+![ui Screenshot](images/1.png)
+![ui Screenshot](images/2.png)
+![ui Screenshot](images/3.png)
 ### WellnessCoachAgent
 1. **Étape 1** — Analyse du profil → identification des besoins prioritaires
 2. **Étape 2** — Construction de la routine quotidienne structurée
 3. **Chat conversationnel** — Maintien du contexte sur 10 messages
 4. **Adaptation** — Modification de la routine selon les retours
-
+![ui Screenshot](images/4.png)
+![ui Screenshot](images/5.png)
+![ui Screenshot](images/6.png)
 ## Installation
 
 ```bash
